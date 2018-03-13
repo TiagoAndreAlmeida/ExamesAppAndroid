@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- menu de opções -->
+    <string name="hemo">Hemoglobina</string>
+    <string name="rdw">RDW</string>
+    <string name="vcm">VCM</string>
+    <string name="hmc">HMC/CHCM</string>
+    <string name="plaquetas">Plaquetas</string>
+    <string name="leucocitos">Leucócitos Totais</string>
+    <string name="basofilos">Basófilos</string>
+    <string name="eosinofilos">Eosinófilos</string>
+    <string name="neutrofilos">Neutrófilos</string>
+    <string name="linfocitos">Linfócitos</string>
+    <string name="monocitos">Monócitos</string>
+
+    <!-- descrição de cada opção -->
+    <string name="hemo_opt">
+        <![CDATA[
+       <h2>Faixa Normal:</h2>
+        Hemoglobina: 12 a 17g/dl
+        Hematócrito: 36% a 50%
+        <h2> Referências :</h2>
+
+        Valores abaixo de 36%: pensar em provável anemia, desnutrição, falta ou diminuição de vitamina B12, ácido fólico ou ferro.
+
+        Valores acima de 50%: Analisar provável policitemia verdadeira ( aumento do número de hemácias, devido à maior produção destas pela medula óssea). Doença pulmonar ( ex: DPOC), Hemoconcentração, poliglobulia ou policitemia ( Excessiva quantidade de eritrócitos – glóbulos vermelhos no sangue). ]]>
+    </string>
+    <string name="rdw_opt">
+        <![CDATA[
+       <h2>Faixa Normal:</h2>
+        10% a 14%
+              <h2>Referências :</h2>
+        Acima de 14% : provável anemia ]]>
+    </string>
+    <string name="vcm_opt">
+        <![CDATA[
+       <h2>Faixa Normal:</h2>
+        80 a 100fL
+        <h2>Referências :</h2>
+        Abaixo de 80fl: Provável deficiência de ferro, anemia microcítica, anemia sideroblástica hereditária ( ineficiência produção de hemoglobina, apesar de uma dieta com ferro suficiente).
+        Acima de 100fl: provável Anemia megaloblástica, hipotireoidismo, etilismo crônico (dependência alcoólica), hepatopatias (doenças do fígado)
+        ]]>
+    </string>
+    <string name="hmc_opt">
+        <![CDATA[
+       <h2>Faixa Normal:</h2>
+        HCM: 28 – 32pg; CHCM: 32- 35g/dl
+        <h2>Referências :</h2>
+        Valores diminuídos: ferropriva (baixos níveis de ferro no organismo)
+        Valores altos: Anemia megaloblástica, deficiência de vitamina B12 e ácido fólico ]]>
+    </string>
+    <string name="plaquetas_opt">
+        <![CDATA[
+       <h2>Faixa Normal:</h2>
+       150.000 a 450.000/mm3
+        <h2>Referências :</h2>
+        Valores abaixo de 150.000mm3: Provável Plaquetopenia, deficiência da coagulação sanguínea, infecções por vírus (ex: Dengue, Zika), anemia megaloblástica, Citomegalovírus (CMV) (pode causar infecções que têm uma ampla extensão de gravidade).
+        Valores acima de 450.000/mm3:  Fisiológicas ( não denotam doenças até certas condições ou valores aceitáveis, ex: trabalho de parto, uso de epinefrina ), doenças mieloproliferativas, Doenças infecciosas e/ou inflamatórias (ex: artrite reumatoide, cirrose hepática)
+        ]]>
+    </string>
+    <string name="leucocitos_opt">
+        <![CDATA[
+       <h2>Faixa Normal:</h2>
+        4.000 a 11/mm3
+        <h2>Referências :</h2>
+        Valores abaixo de 4.000/mm3: leucopenia, sistema imune fraco, infecções virais (ex: dengue), sepse, doenças auto – imune, AIDS.
+
+        Valores acima de 11.000/mm3: Infecção/sepse, anemia falciforme, doença mieloproliferativa.
+        ]]>
+    </string>
+    <string name="basofilos_opt">
+        <![CDATA[
+       <h2>Faixa Normal:</h2>
+        0 a 2%
+        <h2>Referências :</h2>
+        Valores acima: Colite ulcerativa ( inflamação do intestino), algumas reações de hipersensibilidade e/ou reações alérgicas (ex: asma, rinite),  artrite, insuficiência renal crônica, leucemias basofílicas.
+        ]]>
+    </string>
+    <string name="eosinofilos_opt">
+        <![CDATA[
+       <h2>Faixa Normal:</h2>
+        1 a 5%
+        <h2>Referências :</h2>
+        Valores acima de 5%: Asma, processos alérgicos, insuficiência suprarrenal, parasitoses por vermes, alergia ao uso de remédios (ex: AAS, antibióticos), doenças inflamatórias da pele (ex: dermatites), leucemia eosinofílica.
+
+        Valores abaixo de 1%: Estresse, uso de glicocorticoides, processos inflamatórios ou infecciosos agudos,
+        ]]>
+    </string>
+    <string name="neutrofilos_opt">
+        <![CDATA[
+
+        <h1>Neutrófilos (Mielócitos, metamielócitos, bastões, segmentados)</h1>
+        <h2>Faixa Normal:</h2>
+         Mielócitos: 0%; Metamielócitos: 0%; Bastões: 1 a 5%; Segmentados: 50 a 70%.
+        <h2>Referências :</h2>
+        Valores altos: Infecções bacterianas e fúngicas, uso de corticoides, desordens inflamatórias, Eclâmpsia na gravidez, trauma.
+        Valores baixos: Anemia aplásica, anemia  megaloblástica ou ferropriva, lúpus eritematoso sistêmico, drogas, quimioterapia.
+        ]]>
+    </string>
+    <string name="linfocitos_opt">
+        <![CDATA[
+       <h2>Faixa Normal:</h2>
+        20 a 45%
+        <h2>Referências :</h2>
+        Valores acima de 45%: linfocitose, Infecções, tuberculose, hepatite ( inflamação no fígado), insuficiência suprarrenal.
+        Valores abaixo de 20%: Prováveis problemas com a medula óssea, anemia aplástica, leucemia, imunodeficiências congênitas, linfomas, sepse.
+        ]]>
+    </string>
+    <string name="monocitos_opt">
+        <![CDATA[
+       <h2>Faixa Normal:</h2>
+        4 a 10%
+        <h2>Referências :</h2>
+        Valores acima de 10%: Provável infecções crônicas, ex: tuberculose, malária, linfoma, leucemias mieloides.
+        Valores abaixo de 4%: Sistema imunológico enfraquecido, stress, corticoterapia, infecções, terapia imunossupressora, leucemias agudas.
+        ]]>
+    </string>
+
+    <!-- detalhes da view -->
+    <string name="opt_details">%1s</string>
+</resources>
