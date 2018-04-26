@@ -18,8 +18,7 @@ public class Options extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Options.this, Details.class);
-                String opt = getString(R.string.hemo_opt);
-                intent.putExtra("opt", opt);
+                intent.putExtra("id", "hemoglobina");
                 startActivity(intent);
             }
         });
@@ -29,8 +28,7 @@ public class Options extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Options.this, Details.class);
-                String opt = getString(R.string.rdw_opt);
-                intent.putExtra("opt", opt);
+                intent.putExtra("id", "rdw");
                 startActivity(intent);
             }
         });
@@ -40,8 +38,7 @@ public class Options extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Options.this, Details.class);
-                String opt = getString(R.string.vcm_opt);
-                intent.putExtra("opt", opt);
+                intent.putExtra("id", "vcm");
                 startActivity(intent);
             }
         });
@@ -51,8 +48,7 @@ public class Options extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Options.this, Details.class);
-                String opt = getString(R.string.hmc_opt);
-                intent.putExtra("opt", opt);
+                intent.putExtra("id", "hmc");
                 startActivity(intent);
             }
         });
@@ -62,8 +58,7 @@ public class Options extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Options.this, Details.class);
-                String opt = getString(R.string.plaquetas_opt);
-                intent.putExtra("opt", opt);
+                intent.putExtra("id", "plaquetas");
                 startActivity(intent);
             }
         });
@@ -73,8 +68,7 @@ public class Options extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Options.this, Details.class);
-                String opt = getString(R.string.leucocitos_opt);
-                intent.putExtra("opt", opt);
+                intent.putExtra("id", "leucocitos-totais");
                 startActivity(intent);
             }
         });
@@ -84,8 +78,7 @@ public class Options extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Options.this, Details.class);
-                String opt = getString(R.string.basofilos_opt);
-                intent.putExtra("opt", opt);
+                intent.putExtra("id", "basofilos");
                 startActivity(intent);
             }
         });
@@ -95,8 +88,7 @@ public class Options extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Options.this, Details.class);
-                String opt = getString(R.string.eosinofilos_opt);
-                intent.putExtra("opt", opt);
+                intent.putExtra("id", "eosinofilos");
                 startActivity(intent);
             }
         });
@@ -106,8 +98,7 @@ public class Options extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Options.this, Details.class);
-                String opt = getString(R.string.neutrofilos_opt);
-                intent.putExtra("opt", opt);
+                intent.putExtra("id", "neutrofilos");
                 startActivity(intent);
             }
         });
@@ -117,8 +108,7 @@ public class Options extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Options.this, Details.class);
-                String opt = getString(R.string.linfocitos_opt);
-                intent.putExtra("opt", opt);
+                intent.putExtra("id", "linfocitos");
                 startActivity(intent);
             }
         });
@@ -128,8 +118,7 @@ public class Options extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Options.this, Details.class);
-                String opt = getString(R.string.monocitos_opt);
-                intent.putExtra("opt", opt);
+                intent.putExtra("id", "monocitos");
                 startActivity(intent);
             }
         });

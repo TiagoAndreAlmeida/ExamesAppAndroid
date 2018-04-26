@@ -2,8 +2,10 @@ package com.example.tiago.exames;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Html;
+import android.util.Log;
 import android.widget.TextView;
+
+import java.util.concurrent.ExecutionException;
 
 public class Details extends AppCompatActivity {
 
@@ -11,12 +13,27 @@ public class Details extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
-
         Bundle extras = getIntent().getExtras();
-        final TextView textView = (TextView) findViewById(R.id.text_details);
-        String details = extras.getString("opt");
+        String id = extras.getString("id");
 
-        textView.setText(Html.fromHtml(getString(R.string.opt_details, details)));
+        final TextView textFaixa = (TextView) findViewById(R.id.text_faixa);
+        final TextView textDesc = (TextView) findViewById(R.id.text_desc);
+
+
+
+        try{
+            //Log.d("log", "aqui");
+            Exame res = new HttpService(id).execute().get();
+            //Log.d("res", res.getName());
+            textFaixa.setText(res.getFaixa());
+            textDesc.setText(res.getDesc());
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
+
+
 
     }
 }
