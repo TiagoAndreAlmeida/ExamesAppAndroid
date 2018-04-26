@@ -6,18 +6,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Options extends AppCompatActivity {
+public class HemoOptions extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_options);
+        setContentView(R.layout.hemograma_options);
 
         final Button hemoglobina_button = (Button) findViewById(R.id.hemoglobina_button);
         hemoglobina_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Options.this, Details.class);
+                Intent intent = new Intent(HemoOptions.this, Details.class);
                 intent.putExtra("id", "hemoglobina");
                 startActivity(intent);
             }
@@ -27,7 +27,7 @@ public class Options extends AppCompatActivity {
         rdw_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Options.this, Details.class);
+                Intent intent = new Intent(HemoOptions.this, Details.class);
                 intent.putExtra("id", "rdw");
                 startActivity(intent);
             }
@@ -37,7 +37,7 @@ public class Options extends AppCompatActivity {
         vcm_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Options.this, Details.class);
+                Intent intent = new Intent(HemoOptions.this, Details.class);
                 intent.putExtra("id", "vcm");
                 startActivity(intent);
             }
@@ -47,7 +47,7 @@ public class Options extends AppCompatActivity {
         hmc_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Options.this, Details.class);
+                Intent intent = new Intent(HemoOptions.this, Details.class);
                 intent.putExtra("id", "hmc");
                 startActivity(intent);
             }
@@ -57,7 +57,7 @@ public class Options extends AppCompatActivity {
         plaquetas_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Options.this, Details.class);
+                Intent intent = new Intent(HemoOptions.this, Details.class);
                 intent.putExtra("id", "plaquetas");
                 startActivity(intent);
             }
@@ -67,7 +67,7 @@ public class Options extends AppCompatActivity {
         leucocitos_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Options.this, Details.class);
+                Intent intent = new Intent(HemoOptions.this, Details.class);
                 intent.putExtra("id", "leucocitos-totais");
                 startActivity(intent);
             }
@@ -77,7 +77,7 @@ public class Options extends AppCompatActivity {
         basofilos_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Options.this, Details.class);
+                Intent intent = new Intent(HemoOptions.this, Details.class);
                 intent.putExtra("id", "basofilos");
                 startActivity(intent);
             }
@@ -87,7 +87,7 @@ public class Options extends AppCompatActivity {
         eosinofilos_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Options.this, Details.class);
+                Intent intent = new Intent(HemoOptions.this, Details.class);
                 intent.putExtra("id", "eosinofilos");
                 startActivity(intent);
             }
@@ -97,7 +97,7 @@ public class Options extends AppCompatActivity {
         neutrofilos_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Options.this, Details.class);
+                Intent intent = new Intent(HemoOptions.this, Details.class);
                 intent.putExtra("id", "neutrofilos");
                 startActivity(intent);
             }
@@ -107,7 +107,7 @@ public class Options extends AppCompatActivity {
         linfocitos_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Options.this, Details.class);
+                Intent intent = new Intent(HemoOptions.this, Details.class);
                 intent.putExtra("id", "linfocitos");
                 startActivity(intent);
             }
@@ -117,7 +117,7 @@ public class Options extends AppCompatActivity {
         monocitos_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Options.this, Details.class);
+                Intent intent = new Intent(HemoOptions.this, Details.class);
                 intent.putExtra("id", "monocitos");
                 startActivity(intent);
             }

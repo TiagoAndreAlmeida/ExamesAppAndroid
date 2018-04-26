@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="coloracao"> Coloração </string>
+    <string name="ph"> PH </string>
+    <string name="amil"> Amilase </string>
+    <string name="acidourico"> Ácido úrico </string>
+    <string name="bilirrubina"> Bilirrubina </string>
+    <string name="densidade"> Densidade </string>
+</resources>

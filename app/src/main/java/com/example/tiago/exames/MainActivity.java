@@ -5,7 +5,6 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,7 +18,16 @@ public class MainActivity extends AppCompatActivity {
         hemo_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Options.class);
+                Intent intent = new Intent(MainActivity.this, HemoOptions.class);
+                startActivity(intent);
+            }
+        });
+
+        final ImageButton urina_button = (ImageButton) findViewById(R.id.urina_button);
+        urina_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, UrinaOptions.class);
                 startActivity(intent);
             }
         });
