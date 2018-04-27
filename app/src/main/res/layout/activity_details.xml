@@ -16,13 +16,16 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Faixa"
+            android:textSize="24dp"
+            android:textStyle="bold"
             android:layout_gravity="center"/>
 
         <TextView
             android:id="@+id/text_faixa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
             android:textIsSelectable="false"
             android:textStyle="normal" />
 
@@ -30,13 +33,16 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Descrição"
+            android:textSize="24dp"
+            android:textStyle="bold"
             android:layout_gravity="center"/>
 
         <TextView
             android:id="@+id/text_desc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
             android:textIsSelectable="false"
             android:textStyle="normal" />
 

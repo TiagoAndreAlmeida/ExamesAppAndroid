@@ -1,7 +1,7 @@
 package com.example.tiago.exames;
 
+import android.content.Context;
 import android.os.AsyncTask;
-import android.util.Log;
 
 import com.google.gson.Gson;
 
@@ -19,7 +19,10 @@ public class HttpService extends AsyncTask<Void, Void, Exame> {
     private final String idExame;
     private StringBuilder responser;
 
-    public HttpService( String idExame){
+    private Context context;
+
+    public HttpService( String idExame, Context context){
+        this.context = context;
         this.idExame = idExame;
     }
 
@@ -41,8 +44,8 @@ public class HttpService extends AsyncTask<Void, Void, Exame> {
                 while (scanner.hasNext()) {
                     responser.append(scanner.nextLine());
                 }
-                Log.d("log", responser.toString());
             } catch (IOException e) {
+
                 e.printStackTrace();
             }
         }
