@@ -31,7 +31,7 @@ public class HttpService extends AsyncTask<Void, Void, Exame> {
         responser = new StringBuilder();
         if( this.idExame != null){
             try {
-                URL url = new URL("http://192.168.1.4:3000/"+this.idExame);
+                URL url = new URL("https://exame-back.herokuapp.com/"+this.idExame);
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 connection.setRequestMethod("GET");
                 connection.setRequestProperty("Content-type", "application/json");
